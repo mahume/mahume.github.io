@@ -1,0 +1,7 @@
+--action-offline-mode
+--artifact-server-path $PWD/.github/.artifacts
+--container-architecture linux/amd64
+--defaultbranch master
+--input-file .github/.input
+--secret-file .env
+--var-file .env
